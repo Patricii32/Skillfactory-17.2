@@ -21,12 +21,12 @@ class Item extends React.Component{
                 <input type="checkbox" onChange={event =>{ 
                     if(document.getElementsByTagName('input').checked){
                         document.getElementsByTagName('input').checked=0;
-                        this.setState({Value: this.state.Value + 1})
-                        alert("Задача выполнена");
-                    }else{
-                        document.getElementsByTagName('input').checked=1;
                         this.setState({Value: this.state.Value - 1})
                         alert("Задача не выполнена");
+                    }else{
+                        document.getElementsByTagName('input').checked=1;
+                        this.setState({Value: this.state.Value + 1})
+                        alert("Задача выполнена");
                     }
                    
                 }}/>
