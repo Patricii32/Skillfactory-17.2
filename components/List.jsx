@@ -10,7 +10,7 @@ class List extends React.Component{
               <ul>
                 <li><Item Name="Проснуться в 9:00"/></li>
                 <li><Item Name="Погулять с собакой 9:30"/></li>
-                <li><Item Name="Приготовить завтрак"/></li>
+                <li><Item Name="Приготовить завтрак 10:00"/></li>
                 
                 </ul>  
             </div>
